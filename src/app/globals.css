@@ -92,17 +92,19 @@ footer.s12-footer {
   border-top: none;
 }
 
-/* Desktop section heights (moved from inline styles) */
-#s1 { height: 700px; }
-#s2 { height: 670px; }
-#s3 { height: 670px; }
-#s6 { height: 670px; }
-#s9 { height: 670px; }
-#s10 { height: 670px; overflow: hidden; }
-
-#s4 {
-  background: var(--cream);
-}
+/* Desktop section heights — each block = one screen */
+#s1 { height: 100vh; min-height: 700px; }
+#s2 { height: 100vh; min-height: 670px; }
+#s3 { height: 100vh; min-height: 670px; }
+#s4 { height: 100vh; min-height: 690px; background: var(--cream); }
+#s5 { height: 100vh; min-height: 626px; }
+#s6 { height: 100vh; min-height: 670px; }
+#s7 { height: 100vh; min-height: 649px; }
+#s8 { height: 100vh; min-height: 619px; }
+#s9 { height: 100vh; min-height: 670px; }
+#s10 { height: 100vh; min-height: 659px; overflow: hidden; }
+#s11 { height: 100vh; min-height: 679px; }
+.s12-footer { height: 100vh; min-height: 671px; }
 
 .section-bg-img {
   position: absolute;
@@ -983,8 +985,8 @@ footer.s12-footer {
 }
 
 .s8-dna-img {
-  width: 380px;
-  height: 380px;
+  width: 480px;
+  height: 480px;
   display: flex;
   align-items: center;
   justify-content: center;
