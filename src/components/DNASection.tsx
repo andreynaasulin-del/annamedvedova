@@ -36,8 +36,9 @@ export default function DNASection() {
             <Image
               src="/images/content/dna-symbol.png"
               alt="DNA"
-              fill
-              className="object-contain"
+              width={760}
+              height={760}
+              className="s8-dna-symbol"
             />
           </div>
         </div>

@@ -993,12 +993,17 @@ footer.s12-footer {
   align-items: center;
   justify-content: center;
   position: relative;
+  overflow: visible;
 }
 
-.s8-dna-img img {
-  position: absolute;
-  width: 200%;
-  height: 200%;
+.s8-dna-symbol {
+  position: absolute !important;
+  width: 760px !important;
+  height: 760px !important;
+  max-width: none !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   object-fit: contain;
 }
 
