@@ -37,9 +37,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 0;
-  max-width: 1440px;
   width: 100%;
-  margin: 0 auto;
   overflow-x: hidden;
 }
 
@@ -81,7 +79,6 @@ main {
 .section {
   position: relative;
   width: 100%;
-  max-width: 1440px;
   overflow: hidden;
   border: none;
   outline: none;
@@ -93,29 +90,29 @@ main {
 .section + .section,
 .section + .s12-footer,
 footer.s12-footer {
-  margin-top: 0;
+  margin-top: -1px;
+  padding-top: 1px;
   border-top: none;
 }
 
-/* Desktop section heights — strictly 1440×700 */
-#s1  { height: 700px !important; min-height: 700px !important; max-height: 700px !important; }
-#s2  { height: 700px !important; min-height: 700px !important; max-height: 700px !important; }
-#s3  { height: 700px !important; min-height: 700px !important; max-height: 700px !important; }
+/* Desktop section heights — 700px, full-width */
+#s1  { height: 700px; }
+#s2  { height: 700px; }
+#s3  { height: 700px; }
 .s4s5s6-wrapper {
   position: relative;
   width: 100%;
-  max-width: 1440px;
   background: var(--cream) url('/images/backgrounds/fon.png') center center / cover no-repeat;
 }
-#s4  { height: 700px !important; min-height: 700px !important; max-height: 700px !important; }
-#s5  { height: 700px !important; min-height: 700px !important; max-height: 700px !important; }
-#s6  { height: 700px !important; min-height: 700px !important; max-height: 700px !important; }
-#s7  { height: 700px !important; min-height: 700px !important; max-height: 700px !important; }
-#s8  { height: 700px !important; min-height: 700px !important; max-height: 700px !important; }
-#s9  { height: 700px !important; min-height: 700px !important; max-height: 700px !important; }
-#s10 { height: 700px !important; min-height: 700px !important; max-height: 700px !important; overflow: hidden; }
-#s11 { height: 700px !important; min-height: 700px !important; max-height: 700px !important; }
-.s12-footer { height: 700px !important; min-height: 700px !important; max-height: 700px !important; }
+#s4  { height: 700px; }
+#s5  { height: 700px; }
+#s6  { height: 700px; }
+#s7  { height: 700px; }
+#s8  { height: 700px; }
+#s9  { height: 700px; }
+#s10 { height: 700px; overflow: hidden; }
+#s11 { height: 700px; }
+.s12-footer { height: 700px; }
 
 .section-bg-img {
   position: absolute;
@@ -1346,7 +1343,6 @@ footer.s12-footer {
 .s12-footer {
   position: relative;
   width: 100%;
-  max-width: 1440px;
   overflow: hidden;
 }
 
