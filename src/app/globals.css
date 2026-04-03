@@ -92,19 +92,19 @@ footer.s12-footer {
   border-top: none;
 }
 
-/* Desktop section heights — each block = one screen */
-#s1 { height: 100vh; min-height: 700px; }
-#s2 { height: 100vh; min-height: 670px; }
-#s3 { height: 100vh; min-height: 670px; }
-#s4 { height: 100vh; min-height: 690px; background: var(--cream); }
-#s5 { height: 100vh; min-height: 626px; }
-#s6 { height: 100vh; min-height: 670px; }
-#s7 { height: 100vh; min-height: 649px; }
-#s8 { height: 100vh; min-height: 619px; }
-#s9 { height: 100vh; min-height: 670px; }
-#s10 { height: 100vh; min-height: 659px; overflow: hidden; }
-#s11 { height: 100vh; min-height: 679px; }
-.s12-footer { height: 100vh; min-height: 671px; }
+/* Desktop section heights — each block = 700px */
+#s1 { height: 700px; }
+#s2 { height: 700px; }
+#s3 { height: 700px; }
+#s4 { height: 700px; background: var(--cream); }
+#s5 { height: 700px; }
+#s6 { height: 700px; }
+#s7 { height: 700px; }
+#s8 { height: 700px; }
+#s9 { height: 700px; }
+#s10 { height: 700px; overflow: hidden; }
+#s11 { height: 700px; }
+.s12-footer { height: 700px; }
 
 .section-bg-img {
   position: absolute;
@@ -1318,7 +1318,6 @@ footer.s12-footer {
 /* ===== S12 - Footer ===== */
 .s12-footer {
   position: relative;
-  height: 671px;
   overflow: hidden;
 }
 
@@ -1471,7 +1470,7 @@ footer.s12-footer {
 }
 
 .s12-book-label {
-  font-size: 11px;
+  font-size: 12px;
   color: var(--gold);
   letter-spacing: 1px;
   text-transform: uppercase;

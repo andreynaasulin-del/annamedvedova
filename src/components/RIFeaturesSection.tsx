@@ -16,7 +16,7 @@ export default function RIFeaturesSection() {
         />
       </div>
       <div className="s5-wrap">
-        <h2 className="s5-title">Reality Intelligence (RI)</h2>
+        <h2 className="s5-title">Reality Intelligence</h2>
 
         <div className="s5-grid">
           <div>

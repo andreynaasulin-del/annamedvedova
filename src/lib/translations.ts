@@ -4,7 +4,7 @@ const t = {
   ru: {
     // Nav
     nav_login: 'Регистрация / Вход',
-    nav_consult: 'Продукты Академии',
+    nav_consult: 'Консультация',
     nav_btn: 'Консультация',
     // Hero
     hero_tagline_1: 'Новый',
@@ -54,7 +54,7 @@ const t = {
     s7_desc: 'Состояние — это базовая инфраструктура жизни в мире AI. Это управляемая технология, а не эзотерика.',
     s7_name: 'Анна Медведева',
     s7_name_suffix: '\u00A0— Мастер Состояния',
-    s7_name_title: 'Уравнитель поля',
+    s7_name_title: 'Не психолог, а «уравнитель поля».',
     s7_bio: 'Специалист, который калибрует состояние и выводит на новый уровень. Квантовый психолог, исследователь сознания. Более 8 лет практики и 3000+ сессий.',
     s7_btn: 'Записаться на консультацию',
     // S8
@@ -125,7 +125,7 @@ const t = {
 
   ua: {
     nav_login: 'Реєстрація / Вхід',
-    nav_consult: 'Продукти Академії',
+    nav_consult: 'Консультація',
     nav_btn: 'Консультація',
     hero_tagline_1: 'Новий',
     hero_tagline_2: 'Інтелект',
@@ -168,7 +168,7 @@ const t = {
     s7_desc: 'Стан — це базова інфраструктура життя у світі AI. Це керована технологія, а не езотерика.',
     s7_name: 'Анна Медведєва',
     s7_name_suffix: '\u00A0— Майстер Стану',
-    s7_name_title: 'Вирівнювач поля',
+    s7_name_title: 'Не психолог, а «вирівнювач поля».',
     s7_bio: 'Спеціаліст, який калібрує стан і виводить на новий рівень. Квантовий психолог, дослідник свідомості. Понад 8 років практики та 3000+ сесій.',
     s7_btn: 'Записатися на консультацію',
     s8_title1: 'Чесно',
@@ -234,7 +234,7 @@ const t = {
 
   en: {
     nav_login: 'Sign In / Register',
-    nav_consult: 'Academy Products',
+    nav_consult: 'Consultation',
     nav_btn: 'Consultation',
     hero_tagline_1: 'New',
     hero_tagline_2: 'Reality',
@@ -277,7 +277,7 @@ const t = {
     s7_desc: 'State is the basic life infrastructure in the AI world. It is a managed technology, not esotericism.',
     s7_name: 'Anna Medvedeva',
     s7_name_suffix: '\u00A0— State Master',
-    s7_name_title: 'Field equaliser',
+    s7_name_title: 'Not a psychologist, but a "field equaliser".',
     s7_bio: 'A specialist who calibrates states and takes you to a new level. Quantum psychologist, consciousness researcher. Over 8 years of practice and 3000+ sessions.',
     s7_btn: 'Book a consultation',
     s8_title1: 'Honestly',
