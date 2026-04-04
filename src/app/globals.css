@@ -1244,7 +1244,7 @@ footer.s12-footer {
   padding: 100px 0 100px 80px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   height: 100%;
 }
 
@@ -1268,7 +1268,7 @@ footer.s12-footer {
   font-family: var(--font-body);
   font-size: 15px;
   color: var(--cream);
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 .s10-items {
@@ -1279,12 +1279,12 @@ footer.s12-footer {
 
 .s10-item {
   position: relative;
-  padding: 24px 0;
+  padding: 18px 0;
   font-family: var(--font-body);
   font-size: 15px;
   line-height: 1.6;
   color: var(--cream);
-  max-width: 420px;
+  max-width: 280px;
 }
 
 .s10-item::after {
@@ -1296,20 +1296,20 @@ footer.s12-footer {
   height: 1px;
   background: linear-gradient(
     to right,
-    #C1B9B4 0%,
+    rgba(193,185,180,0.3) 0%,
     #DF8E2A 20%,
     #FFF4EE 50%,
     #E19537 75%,
-    #CFC1B6 100%
+    rgba(207,193,182,0.3) 100%
   );
 }
 
 .s10-item-2 {
-  margin-left: 0;
+  margin-left: 115px;
 }
 
 .s10-item-3 {
-  margin-left: 0;
+  margin-left: 230px;
 }
 
 /* ===== S11 - Programs ===== */
