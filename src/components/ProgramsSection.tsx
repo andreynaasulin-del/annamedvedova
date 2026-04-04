@@ -6,10 +6,10 @@ export default function ProgramsSection() {
   const { tr } = useTranslation();
 
   return (
-    <section id="s11" className="section">
+    <section id="s11" className="section" style={{ backgroundColor: '#000' }}>
       <div className="section-bg-img">
         <Image
-          src="/images/backgrounds/bg-s11-new.jpg"
+          src="/images/backgrounds/bg-s11-block.png"
           alt=""
           fill
           className="object-cover"
