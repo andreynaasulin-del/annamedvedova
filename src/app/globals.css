@@ -1279,28 +1279,30 @@ footer.s12-footer {
 
 .s10-item {
   position: relative;
-  padding: 18px 0;
+  padding: 20px 0;
   font-family: var(--font-body);
   font-size: 15px;
   line-height: 1.6;
   color: var(--cream);
-  max-width: 280px;
+  max-width: 265px;
 }
 
-.s10-item::after {
+.s10-item::before {
   content: "";
   position: absolute;
   bottom: 0;
-  left: 0;
-  width: 560px;
-  height: 1px;
+  left: -115px;
+  width: 559px;
+  height: 2px;
   background: linear-gradient(
     to right,
-    rgba(193,185,180,0.3) 0%,
-    #DF8E2A 20%,
-    #FFF4EE 50%,
-    #E19537 75%,
-    rgba(207,193,182,0.3) 100%
+    #C1B9B4 0%,
+    #250D03 14%,
+    #DF8E2A 26%,
+    #FFF4EE 39%,
+    #E19537 62%,
+    #200B02 82%,
+    #CFC1B6 100%
   );
 }
 
