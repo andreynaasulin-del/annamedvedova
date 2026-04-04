@@ -508,19 +508,33 @@ footer.s12-footer {
   z-index: 4;
 }
 
-.hero-caption {
+.hero-cta-btn {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 20px;
   position: absolute;
-  bottom: 8%;
-  left: 150px;
+  width: 325px;
+  height: 47px;
+  left: 155px;
+  top: 458px;
+  background: #332000;
+  border: 1px solid #DE8B23;
+  border-radius: 10px;
   font-family: var(--font-body);
-  font-size: 18px;
-  line-height: 1.5;
-  color: rgba(245, 240, 232, 0.85);
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFF5EF;
+  text-decoration: none;
   z-index: 4;
+  transition: background 0.3s;
+  cursor: pointer;
 }
 
-.hero-caption .hl {
-  color: var(--accent);
+.hero-cta-btn:hover {
+  background: rgba(51, 32, 0, 0.8);
 }
 
 /* ===== S2 - Problem ===== */

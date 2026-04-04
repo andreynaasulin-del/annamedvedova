@@ -37,11 +37,14 @@ export default function HeroSection() {
         {tr('hero_subtitle')}
       </p>
 
-      {/* Caption */}
-      <div className="hero-caption">
-        <span className="hl">{tr('hero_caption_hl')}</span>{tr('hero_caption')}<br />
-        {tr('hero_caption2')}
-      </div>
+      {/* CTA Button */}
+      <a
+        href="#s11"
+        className="hero-cta-btn"
+        onClick={e => { e.preventDefault(); document.querySelector('#s11')?.scrollIntoView({ behavior: 'smooth' }); }}
+      >
+        {tr('nav_btn')}
+      </a>
     </section>
   );
 }
