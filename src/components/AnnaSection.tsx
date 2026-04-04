@@ -9,7 +9,7 @@ export default function AnnaSection() {
     <section id="s7" className="section">
       <div className="section-bg-img">
         <Image
-          src="/images/backgrounds/17.jpg"
+          src="/images/backgrounds/bg-s7-bio.png"
           alt=""
           fill
           className="object-cover"
