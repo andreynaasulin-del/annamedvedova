@@ -1551,12 +1551,12 @@ footer.s12-footer {
   color: var(--gold);
 }
 
-/* Copyright — center per Figma: left 636px on 1440px canvas = centered */
+/* Copyright — centered, bottom of footer */
 .s12-copyright {
   position: absolute;
   width: 167px;
   left: calc(50% - 83.5px);
-  top: 425px;
+  bottom: 40px;
   font-family: var(--font-body);
   font-style: normal;
   font-weight: 400;
