@@ -92,8 +92,9 @@ main {
   height: 100vh;
   min-height: 600px;
 }
-#s1 { background: #1a0d05; }
-#s4, #s5, #s6 { background: #e8ddd4; }
+#s1 { background: #1a0d05; height: auto !important; min-height: 0 !important; aspect-ratio: 1440 / 700; }
+#s4 { background: #e8ddd4; height: auto !important; min-height: 0 !important; aspect-ratio: 1440 / 675; }
+#s5, #s6 { background: #e8ddd4; }
 #s10 { background: #000; overflow: hidden; }
 .s4s5s6-wrapper {
   position: relative;
