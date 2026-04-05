@@ -9,7 +9,7 @@ export default function IntelligenceSection() {
           src="/images/backgrounds/bg-s4-full.png"
           alt="Эволюция интеллекта — IQ, EQ, SQ, RI"
           fill
-          style={{ objectFit: "cover", objectPosition: "center center" }}
+          style={{ objectFit: "contain", objectPosition: "center center" }}
           priority
           unoptimized
         />

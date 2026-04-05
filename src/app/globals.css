@@ -100,6 +100,7 @@ footer.s12-footer {
   height: 100vh;
   min-height: 600px;
 }
+#s1 { background: #1a0d05; }
 #s10 { overflow: hidden; }
 .s4s5s6-wrapper {
   position: relative;
