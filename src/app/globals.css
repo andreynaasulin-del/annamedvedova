@@ -98,13 +98,13 @@ main {
 #s8  { background: #e0d0c4; }
 #s9  { background: #e0d0c4; }
 #s10 { background: #000; overflow: hidden; }
-#s11 { background: #000; }
+#s11 { aspect-ratio: 1440 / 820 !important; background: #000; }
 .s4s5s6-wrapper {
   position: relative;
   width: 100%;
   background: #e8ddd4;
 }
-.s12-footer { aspect-ratio: 1440 / 495; }
+.s12-footer { aspect-ratio: 1440 / 495; background: #000; }
 
 .section-bg-img {
   position: absolute;
