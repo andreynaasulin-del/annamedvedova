@@ -9,7 +9,7 @@ export default function HeroSection() {
           src="/images/backgrounds/bg-s1-full.png"
           alt="Reality DNA — Академия управления состоянием"
           fill
-          style={{ objectFit: "contain", objectPosition: "center center" }}
+          style={{ objectFit: "cover", objectPosition: "center center" }}
           priority
           unoptimized
         />
