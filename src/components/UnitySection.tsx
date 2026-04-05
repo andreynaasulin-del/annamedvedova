@@ -9,7 +9,7 @@ export default function UnitySection() {
           src="/images/backgrounds/bg-s10-full.png"
           alt="Сила в единстве — живая экосистема Reality DNA"
           fill
-          style={{ objectFit: "contain", objectPosition: "center center" }}
+          style={{ objectFit: "cover", objectPosition: "center center" }}
           priority
           unoptimized
         />

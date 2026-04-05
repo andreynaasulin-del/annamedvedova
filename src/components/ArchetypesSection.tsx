@@ -9,7 +9,7 @@ export default function ArchetypesSection() {
           src="/images/backgrounds/bg-s9-full.png"
           alt="Основные архетипы RI — структурная магия"
           fill
-          style={{ objectFit: "contain", objectPosition: "center center" }}
+          style={{ objectFit: "cover", objectPosition: "center center" }}
           priority
           unoptimized
         />

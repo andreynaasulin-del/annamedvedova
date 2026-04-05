@@ -9,7 +9,7 @@ export default function ProgramsSection() {
           src="/images/backgrounds/bg-s11-full.png"
           alt="Эволюция состояния — программы Reality DNA"
           fill
-          style={{ objectFit: "contain", objectPosition: "center center" }}
+          style={{ objectFit: "cover", objectPosition: "center center" }}
           priority
           unoptimized
         />

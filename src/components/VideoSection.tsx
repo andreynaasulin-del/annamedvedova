@@ -9,7 +9,7 @@ export default function VideoSection() {
           src="/images/backgrounds/bg-s6-full.png"
           alt="Видео будет здесь"
           fill
-          style={{ objectFit: "contain", objectPosition: "center center" }}
+          style={{ objectFit: "cover", objectPosition: "center center" }}
           priority
           unoptimized
         />

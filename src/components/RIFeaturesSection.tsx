@@ -9,7 +9,7 @@ export default function RIFeaturesSection() {
           src="/images/backgrounds/bg-s5-full.png"
           alt="Reality Intelligence — ключевые особенности"
           fill
-          style={{ objectFit: "contain", objectPosition: "center center" }}
+          style={{ objectFit: "cover", objectPosition: "center center" }}
           priority
           unoptimized
         />
