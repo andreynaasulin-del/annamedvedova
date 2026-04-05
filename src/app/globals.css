@@ -87,21 +87,24 @@ main {
   padding: 0;
 }
 
-/* Full-screen sections */
+/* All sections — fixed 700px */
 #s1, #s2, #s3, #s4, #s5, #s6, #s7, #s8, #s9, #s10, #s11 {
-  height: 100vh;
-  min-height: 600px;
+  height: 700px;
 }
-#s1 { background: #1a0d05; height: auto !important; min-height: 0 !important; aspect-ratio: 1440 / 700; }
-#s4 { background: #e8ddd4; height: auto !important; min-height: 0 !important; aspect-ratio: 1440 / 675; }
-#s5, #s6 { background: #e8ddd4; }
+#s1 { background: #1a0d05; }
+#s2 { background: #d4c4b8; }
+#s3 { background: #1a1a1a; }
+#s4, #s5, #s6 { background: #e8ddd4; }
+#s8 { background: #e0d0c4; }
+#s9 { background: #e0d0c4; }
 #s10 { background: #000; overflow: hidden; }
+#s11 { background: #000; }
 .s4s5s6-wrapper {
   position: relative;
   width: 100%;
   background: #e8ddd4;
 }
-.s12-footer { height: 100vh; min-height: 600px; }
+.s12-footer { height: 495px; }
 
 .section-bg-img {
   position: absolute;
