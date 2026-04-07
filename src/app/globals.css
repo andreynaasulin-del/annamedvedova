@@ -158,16 +158,16 @@ main {
 .s11-btn-3 { left: 63%; }
 
 /* S12 — Book block */
-.s12-book-overlay { left: 8%; bottom: 16%; width: 17%; height: 30%; }
+.s12-book-overlay { left: 8%; bottom: 18%; width: 17%; height: 30%; }
 
 /* S12 — Social icons */
-.s12-social-overlay { bottom: 24%; width: 5%; height: 8%; }
+.s12-social-overlay { bottom: 26%; width: 5%; height: 8%; }
 .s12-ig { left: 53%; }
 .s12-yt { left: 58.5%; }
 .s12-tg { left: 64%; }
 
 /* S12 — Оферта / Политика */
-.s12-offer-overlay { bottom: 8%; height: 5%; }
+.s12-offer-overlay { bottom: 10%; height: 5%; }
 .s12-oferta { left: 52%; width: 13%; }
 .s12-privacy { left: 66%; width: 30%; }
 
