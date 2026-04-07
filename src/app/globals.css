@@ -147,7 +147,7 @@ main {
 }
 
 /* S7 — "О мастере" + "Запись на консультацию" */
-.s7-btn-overlay { bottom: 14%; height: 6%; }
+.s7-btn-overlay { bottom: 10%; height: 6%; }
 .s7-btn-about { left: 9%; width: 19%; }
 .s7-btn-consult { left: 30%; width: 22%; }
 
