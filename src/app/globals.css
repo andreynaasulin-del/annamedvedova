@@ -1317,6 +1317,7 @@ main {
   position: absolute;
   inset: 0;
   z-index: 0;
+  pointer-events: none;
 }
 
 /* ===== S11 - Programs ===== */
