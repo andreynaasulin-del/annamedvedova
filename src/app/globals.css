@@ -163,7 +163,7 @@ main {
 .s1-particles {
   position: absolute;
   inset: -5%;
-  background-image: url('/images/effects/s1-particles.png');
+  background-image: url('/images/effects/s1-particles.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;

@@ -35,7 +35,7 @@ export default function OfferPage() {
               fill
               sizes="100vw"
               style={{ objectFit: 'cover', objectPosition: 'center top' }}
-              unoptimized
+              quality={90}
               {...(i === 0 ? { priority: true } : {})}
             />
           </div>

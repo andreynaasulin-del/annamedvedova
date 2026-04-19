@@ -11,10 +11,10 @@ export default function RIFeaturesSection() {
     <section id="s5" className="section">
       <SeoText section="s5" />
       <div className="s10-bg desktop-only">
-        <Image src={bgDesktop(5, lang)} alt="" fill style={{ objectFit: "cover", objectPosition: "center center" }} unoptimized />
+        <Image src={bgDesktop(5, lang)} alt="" fill style={{ objectFit: "cover", objectPosition: "center center" }} quality={90} />
       </div>
       <div className="s10-bg mobile-only">
-        <Image src={bgMobile(5, lang)} alt="" fill style={{ objectFit: "cover", objectPosition: "center top" }} unoptimized />
+        <Image src={bgMobile(5, lang)} alt="" fill style={{ objectFit: "cover", objectPosition: "center top" }} quality={90} />
       </div>
     </section>
   );
