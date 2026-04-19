@@ -186,6 +186,23 @@ main {
   .s1-particles { animation: none; opacity: 0.4; }
 }
 
+/* ===== S2 brain — gentle float + pulse =====
+   Brain PNG sits on top of the background plexus layer. A single keyframe
+   pairs a small Y-drift with a whisper-scale and brightness pulse, so the
+   brain reads as "breathing" rather than bouncing. Low-frequency (5s) keeps
+   the animation calm and non-distracting. */
+.s2-brain-anim {
+  animation: s2BrainFloat 5s ease-in-out infinite;
+  will-change: transform, filter;
+}
+@keyframes s2BrainFloat {
+  0%, 100% { transform: translateY(0) scale(1);         filter: brightness(1)    drop-shadow(0 0 18px rgba(255, 180, 120, 0.18)); }
+  50%      { transform: translateY(-10px) scale(1.015); filter: brightness(1.08) drop-shadow(0 0 32px rgba(255, 180, 120, 0.32)); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .s2-brain-anim { animation: none; }
+}
+
 /* ===== SECTION BASE ===== */
 .section {
   position: relative;
