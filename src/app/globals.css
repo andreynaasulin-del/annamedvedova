@@ -234,6 +234,30 @@ img.desktop-only { display: block !important; }
   width: 100%;
   background: #e8ddd4;
 }
+/* Soft seam between s4 and s5 background images: both fade into the shared
+   wrapper bg #e8ddd4 so the transition reads as one continuous surface instead
+   of two mismatched photographs butting against each other. */
+.s4s5s6-wrapper #s4 .s10-bg img {
+  -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 140px), transparent 100%);
+          mask-image: linear-gradient(to bottom, #000 calc(100% - 140px), transparent 100%);
+}
+.s4s5s6-wrapper #s5 .s10-bg img {
+  -webkit-mask-image: linear-gradient(to top, #000 calc(100% - 140px), transparent 100%);
+          mask-image: linear-gradient(to top, #000 calc(100% - 140px), transparent 100%);
+}
+/* On mobile the sections stack taller and the 140px fade is too aggressive —
+   dial it back so the crystal at the bottom of s4 isn't clipped. */
+@media (max-width: 768px) {
+  .s4s5s6-wrapper #s4 .s10-bg img,
+  .s4s5s6-wrapper #s5 .s10-bg img {
+    -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 60px), transparent 100%);
+            mask-image: linear-gradient(to bottom, #000 calc(100% - 60px), transparent 100%);
+  }
+  .s4s5s6-wrapper #s5 .s10-bg img {
+    -webkit-mask-image: linear-gradient(to top, #000 calc(100% - 60px), transparent 100%);
+            mask-image: linear-gradient(to top, #000 calc(100% - 60px), transparent 100%);
+  }
+}
 .s12-footer { aspect-ratio: 1440 / 495; background: #000; }
 
 /* === Overlay links on image buttons ===
