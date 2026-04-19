@@ -1,6 +1,7 @@
 'use client';
 import Image from "next/image";
 import { useTranslation } from '@/components/LanguageProvider';
+import SeoText from '@/components/SeoText';
 import { bgDesktop, bgMobile } from '@/lib/imagePaths';
 
 export default function UnitySection() {
@@ -8,6 +9,7 @@ export default function UnitySection() {
 
   return (
     <section id="s10" className="section">
+      <SeoText section="s10" />
       <div className="s10-bg desktop-only">
         <Image src={bgDesktop(10, lang)} alt="" fill style={{ objectFit: "cover", objectPosition: "center center" }} unoptimized />
       </div>

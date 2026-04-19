@@ -124,6 +124,9 @@ const t = {
     auth_go_register: 'Зарегистрироваться',
     auth_have_account: 'Уже есть аккаунт?',
     auth_go_login: 'Войти',
+    // Consultation page buttons
+    consult_pay: 'Оплатить',
+    consult_support: 'Техподдержка',
   },
 
   ua: {
@@ -236,6 +239,9 @@ const t = {
     auth_go_register: 'Зареєструватись',
     auth_have_account: 'Вже є акаунт?',
     auth_go_login: 'Увійти',
+    // Consultation page buttons
+    consult_pay: 'Оплатити',
+    consult_support: 'Техпідтримка',
   },
 
   en: {
@@ -348,6 +354,9 @@ const t = {
     auth_go_register: 'Register',
     auth_have_account: 'Already have an account?',
     auth_go_login: 'Sign In',
+    // Consultation page buttons
+    consult_pay: 'Pay',
+    consult_support: 'Technical support',
   },
 } as const;
 

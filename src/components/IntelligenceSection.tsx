@@ -1,6 +1,7 @@
 'use client';
 import Image from "next/image";
 import { useTranslation } from '@/components/LanguageProvider';
+import SeoText from '@/components/SeoText';
 import { bgDesktop, bgMobile } from '@/lib/imagePaths';
 
 export default function IntelligenceSection() {
@@ -8,6 +9,7 @@ export default function IntelligenceSection() {
 
   return (
     <section id="s4" className="section">
+      <SeoText section="s4" />
       <div className="s10-bg desktop-only">
         <Image src={bgDesktop(4, lang)} alt="" fill style={{ objectFit: "cover", objectPosition: "center center" }} unoptimized />
       </div>

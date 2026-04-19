@@ -1,6 +1,7 @@
 'use client';
 import Image from "next/image";
 import { useTranslation } from '@/components/LanguageProvider';
+import SeoText from '@/components/SeoText';
 import { bgDesktop, bgMobile } from '@/lib/imagePaths';
 
 export default function RIFeaturesSection() {
@@ -8,6 +9,7 @@ export default function RIFeaturesSection() {
 
   return (
     <section id="s5" className="section">
+      <SeoText section="s5" />
       <div className="s10-bg desktop-only">
         <Image src={bgDesktop(5, lang)} alt="" fill style={{ objectFit: "cover", objectPosition: "center center" }} unoptimized />
       </div>

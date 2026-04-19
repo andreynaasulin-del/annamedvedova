@@ -9,6 +9,10 @@ blocks
 # Keep PNGs inside public/
 !public/**/*.png
 
+# Unused image directories (not referenced in code)
+public/images/content/
+public/images/blocks/
+
 # Other large unused files
 *.psd
 *.sketch
