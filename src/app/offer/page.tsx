@@ -11,9 +11,8 @@ function offerPath(name: string, lang: string): string {
   return v(`/images/backgrounds/offer${langDir}/${name}.jpg`);
 }
 
-// Sections: header (thin strip), main offer text (footer is separate component)
+// Main offer text (footer is separate component; global site-header handles nav).
 const SECTIONS = [
-  { name: 'header', ratio: '1440 / 47',  bg: '#1a0d05' },
   { name: 'offer',  ratio: '1076 / 1440', bg: '#f5f0eb' },
 ];
 
@@ -28,7 +27,18 @@ export default function OfferPage() {
           className="consult-section"
           style={{ aspectRatio: s.ratio, background: s.bg }}
         >
-          <div className="s10-bg">
+          <div className="s10-bg desktop-only">
+            <Image
+              src={offerPath(s.name, lang)}
+              alt=""
+              fill
+              sizes="100vw"
+              style={{ objectFit: 'cover', objectPosition: 'center top' }}
+              quality={90}
+              {...(i === 0 ? { priority: true } : {})}
+            />
+          </div>
+          <div className="s10-bg mobile-only">
             <Image
               src={offerPath(s.name, lang)}
               alt=""
