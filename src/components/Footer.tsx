@@ -11,10 +11,10 @@ export default function Footer() {
     <footer id="s12" className="s12-footer">
       <SeoText section="s12" />
       <div className="s10-bg desktop-only">
-        <Image src={bgDesktop(12, lang)} alt="" fill style={{ objectFit: "cover", objectPosition: "center center" }} unoptimized />
+        <Image src={bgDesktop(12, lang)} alt="" fill style={{ objectFit: "cover", objectPosition: "center center" }} quality={90} />
       </div>
       <div className="s10-bg mobile-only">
-        <Image src={bgMobile(12, lang)} alt="" fill style={{ objectFit: "cover", objectPosition: "center top" }} unoptimized />
+        <Image src={bgMobile(12, lang)} alt="" fill style={{ objectFit: "cover", objectPosition: "center top" }} quality={90} />
       </div>
       {/* Background JPG is clean (no buttons). Buttons live as separate
           transparent PNGs (desktop + mobile variants) on top so each one

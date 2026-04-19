@@ -11,10 +11,10 @@ export default function ProgramsSection() {
     <section id="s11" className="section">
       <SeoText section="s11" />
       <div className="s10-bg desktop-only">
-        <Image src={bgDesktop(11, lang)} alt="" fill style={{ objectFit: "cover", objectPosition: "center center" }} unoptimized />
+        <Image src={bgDesktop(11, lang)} alt="" fill style={{ objectFit: "cover", objectPosition: "center center" }} quality={90} />
       </div>
       <div className="s10-bg mobile-only">
-        <Image src={bgMobile(11, lang)} alt="" fill style={{ objectFit: "cover", objectPosition: "center top" }} unoptimized />
+        <Image src={bgMobile(11, lang)} alt="" fill style={{ objectFit: "cover", objectPosition: "center top" }} quality={90} />
       </div>
       <a href="https://t.me/medvedieva_anna" target="_blank" rel="noopener noreferrer" className="s11-btn-overlay s11-btn-1">
         <img src={btnDesktop(11, lang)} alt="" draggable={false} />

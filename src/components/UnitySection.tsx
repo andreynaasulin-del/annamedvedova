@@ -11,10 +11,10 @@ export default function UnitySection() {
     <section id="s10" className="section">
       <SeoText section="s10" />
       <div className="s10-bg desktop-only">
-        <Image src={bgDesktop(10, lang)} alt="" fill style={{ objectFit: "cover", objectPosition: "center center" }} unoptimized />
+        <Image src={bgDesktop(10, lang)} alt="" fill style={{ objectFit: "cover", objectPosition: "center center" }} quality={90} />
       </div>
       <div className="s10-bg mobile-only">
-        <Image src={bgMobile(10, lang)} alt="" fill style={{ objectFit: "cover", objectPosition: "center top" }} unoptimized />
+        <Image src={bgMobile(10, lang)} alt="" fill style={{ objectFit: "cover", objectPosition: "center top" }} quality={90} />
       </div>
     </section>
   );

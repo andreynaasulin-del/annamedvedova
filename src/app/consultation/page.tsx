@@ -39,7 +39,7 @@ export default function ConsultationPage() {
               fill
               sizes="100vw"
               style={{ objectFit: 'cover', objectPosition: 'center center' }}
-              unoptimized
+              quality={90}
               {...(i === 0 ? { priority: true } : {})}
             />
           </div>
@@ -50,7 +50,7 @@ export default function ConsultationPage() {
               fill
               sizes="100vw"
               style={{ objectFit: 'cover', objectPosition: 'center top' }}
-              unoptimized
+              quality={90}
               {...(i === 0 ? { priority: true } : {})}
             />
           </div>
