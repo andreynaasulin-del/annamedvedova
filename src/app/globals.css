@@ -1158,8 +1158,65 @@ img.desktop-only { display: block !important; }
   #s10 { aspect-ratio: 1125 / 2364 !important; }
   #s11 { aspect-ratio: 1125 / 3717 !important; }
 
-  /* S1 mobile | ref: 1-1.png (375×716) */
-  .s1-btn-overlay { left: 17.3%; width: 65.3%; bottom: 7%; }
+  /* S1 mobile | Figma 1:73 (375×716) — HTML text + button overlay sit on
+     top of the shared layered bg (s1-bg-layer / s1-detail-layer / s1-darken). */
+  .s1-text-layer .hero-tagline {
+    top: 13.7%;                /* y=98 / 716 */
+    font-size: 12px;
+    line-height: 1.2;
+    opacity: 0.7;
+    letter-spacing: 0;
+  }
+  .s1-text-layer .hero-title-v2 {
+    left: 0;
+    width: 100%;
+    text-align: center;
+    white-space: normal;
+    letter-spacing: 0;
+    line-height: 1;
+  }
+  .s1-text-layer .hero-title-row-1 {
+    top: 26.5%;                /* y=190 / 716 — АКАДЕМИЯ baseline-ish */
+    font-size: 28px;
+    font-weight: 500;
+    text-transform: none;      /* spans control case below */
+  }
+  .s1-text-layer .hero-title-head {
+    display: block;
+    font-size: 28px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  .s1-text-layer .hero-title-tail {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 12px;
+  }
+  .s1-text-layer .hero-title-row-2 {
+    top: 41.5%;                /* y=297 / 716 */
+    font-size: 28px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  .s1-text-layer .hero-glow-line-v2 {
+    top: 38.4%;                /* between row-1 tail and row-2 */
+    height: 2px;
+  }
+  .s1-text-layer .hero-subtitle-v2 {
+    top: 57.4%;                /* y=411 / 716 */
+    left: 8%;                  /* (375-315)/2 / 375 */
+    width: 84%;                /* 315 / 375 */
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 23.1px;
+    letter-spacing: 0;
+    white-space: normal;
+    opacity: 1;
+  }
+  .s1-btn-overlay { left: 8%; width: 84%; bottom: 16.2%; }
 
   /* S6 mobile — centered "Method" button, bigger so it's tappable. */
   .s6-btn-overlay { left: 14%; width: 72%; bottom: 12%; }
@@ -3289,6 +3346,14 @@ img.desktop-only { display: block !important; }
   }
 
   /* === S2 PROBLEM — Figma 375×791, node 1:195 === */
+  /* Scale the bg so the brain reads as a focal centerpiece (Figma renders
+     the source image at ~297% width — we approximate via an upward scale
+     that keeps the brain inside the upper half between the heading and
+     the first card). */
+  #s2 .s2-bg img {
+    transform: scale(1.9);
+    transform-origin: center 30%;
+  }
   #s2 .s2-title {
     top: 4.93%;       /* 39/791 */
     text-transform: uppercase;
@@ -3318,6 +3383,13 @@ img.desktop-only { display: block !important; }
   }
 
   /* === S3 OLD CODE — Figma 375×635 (node 1:208) === */
+  /* Figma node 1:209 scales the bg image to 105.67% with a -2.83% top
+     offset — this clips ~34px off the source bottom (where the canyon
+     widens into lava), leaving the rocky ledge under the body copy. */
+  #s3 .s3-bg img {
+    transform: scale(1.057) translateY(-2.7%);
+    transform-origin: center top;
+  }
   #s3 .s3-kicker {
     top: 6.14%;        /* 39/635 */
     left: 8%;          /* 30/375 */
@@ -3340,8 +3412,9 @@ img.desktop-only { display: block !important; }
   #s3 .s3-body {
     top: 70.39%;       /* 447/635 */
     left: 8%;
-    width: 84%;        /* 315/375 */
+    width: 84%;        /* 315/375 — Figma node 1:212 */
     font-size: 16px;
+    line-height: 1.2;
     opacity: 0.8;
   }
 

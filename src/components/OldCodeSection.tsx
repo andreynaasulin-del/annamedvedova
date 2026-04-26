@@ -11,7 +11,7 @@ export default function OldCodeSection() {
         <Image src="/images/backgrounds/bg-s3-desktop.jpg" alt="" fill sizes="100vw" />
       </div>
       <div className="s3-bg mobile-only">
-        <Image src="/images/backgrounds/bg-s3-mobile.jpg" alt="" fill sizes="100vw" style={{ objectPosition: 'center top' }} />
+        <Image src="/images/backgrounds/bg-s3-mobile-v2.jpg" alt="" fill sizes="100vw" style={{ objectPosition: 'center top' }} />
       </div>
 
       <p className="s3-kicker">{tr('s3_kicker')}</p>
